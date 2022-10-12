@@ -13,6 +13,5 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
   integrations: [tailwind(), react(), svelte()],
   site: 'https://dwrbad.github.io/',
-  dist: 'public',
-  public: 'static'
+  base: '/astro-fe-weekly',
 });
